@@ -1,8 +1,15 @@
+<script>
+	import Header from './header.svelte';
+	import Footer from './footer.svelte';
+</script>
+
 <div>
 	<img src="images/shutterstock_307808411 1.png" alt="" />
 </div>
 
-<header>
+<Header />
+
+<!-- <header>
 	<img src="images/stationary logo 3.jpg" alt="cradle logo" />
 	<img src="images/Group_63.png" alt="cradle logo" />
 
@@ -19,32 +26,20 @@
 		<img src="images/Line_219.png" alt="verticle seperator" />
 		<li><a href="">visit us</a></li>
 	</ul>
-</header>
+</header> -->
+
 <main>
 	<img src="images/Cavernet-Sauvignon-Grapes-on-the-vine 1.jpg" alt="grape vine" />
 </main>
+<Footer />
 
 <style>
 	div {
 		background-color: #cdd1c4;
 	}
 	main > img {
-		width: 100%;
+		width: auto;
+
 		margin: 0 auto;
-	}
-
-	header,
-	img {
-		display: inline-block;
-	}
-
-	ul,
-	li,
-	a {
-		display: inline-flex;
-		flex-direction: row;
-		padding: 15px;
-		text-decoration: none;
-		text-transform: uppercase;
 	}
 </style>
