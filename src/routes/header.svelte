@@ -1,6 +1,8 @@
 <div class="navbar">
 	<div class="nav-logo">
-		<img src="images/stationary logo 3.jpg" alt="cradle logo" />
+		<a href="/">
+			<img src="images/stationary logo 3.jpg" alt="cradle logo" />
+		</a>
 		<img src="images/Group_63.png" alt="cradle logo" />
 	</div>
 	<div class="subnav-seperator">
