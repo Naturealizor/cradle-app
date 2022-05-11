@@ -26,7 +26,7 @@
 			<h2 class="ft-title">support</h2>
 			<ul>
 				<!-- Here's the contact us link -->
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="/contactUs">Contact Us</a></li>
 				<li><a href="#">Investor Relations</a></li>
 				<li><a href="#">Returns & Refunds</a></li>
 				<li><a href="#">Shipping Information</a></li>
@@ -96,14 +96,25 @@
 	footer a {
 		text-decoration: none;
 		color: black;
+		font-family: 'Lato';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 14px;
 	}
 	a:hover {
 		text-decoration: underline;
 	}
 	.ft-title {
 		color: #b59f61;
-		font-family: ’Merriweather’, serif;
-		font-size: 1.375rem;
+		font-family: 'Baskerville';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 16px;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+
 		padding-bottom: 0.625rem;
 	}
 
