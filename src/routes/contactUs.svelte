@@ -3,6 +3,7 @@
 	import Footer from './footer.svelte';
 	import Topper from './topHeaderImg.svelte';
 	import Form from './contactForm.svelte';
+	import Section from './sectionWBtn.svelte';
 
 	// function routeMediaContact (
 	//    window.location.href="/";
@@ -27,11 +28,7 @@
 		<h3>Media Contacts</h3>
 		<button type="button" value="media contacts">media contacts</button>
 	</section>
-	<section class="investors-contact">
-		<h2>investors</h2>
-		<h3>Investor Contacts</h3>
-		<button type="button" value="investor contacts">investor contacts</button>
-	</section>
+	<Section />
 	<section class="careers-contact">
 		<h2>careers</h2>
 		<h3>Careers Contacts</h3>
@@ -45,13 +42,9 @@
 		width: 100%;
 	}
 	.media-contact,
-	.investors-contact,
 	.careers-contact {
 		text-align: center;
-		margin-top: 4%;
-	}
-	.investors-contact {
-		background-color: #3f4244;
+		margin: 5%;
 	}
 	h2 {
 		font-family: 'Lato';
@@ -71,7 +64,7 @@
 		text-align: center;
 		color: #9c1232;
 		margin-top: 1%;
-		margin-bottom: 2%;
+		margin-bottom: 3%;
 	}
 	button {
 		box-sizing: border-box;

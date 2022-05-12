@@ -129,6 +129,7 @@
 
 	.subnav:hover .subnavbtn {
 		transform: scale(1.1);
+		/* color: white; */
 	}
 
 	.subnav-content {
@@ -139,10 +140,11 @@
 		width: 100%;
 		z-index: 1;
 		top: 8em;
+		margin-top: 5px;
 	}
 
 	.subnav-content a {
-		float: left;
+		/* float: left; */
 		color: white;
 		font-family: 'Lato';
 		font-style: normal;
@@ -155,8 +157,9 @@
 
 	.subnav-content a:hover {
 		opacity: 1;
-		/* background-color: #eee; */
 		color: white;
+		background-color: green;
+		transform: scale(1.01);
 	}
 
 	.subnav:hover .subnav-content {
