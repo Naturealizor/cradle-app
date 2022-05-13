@@ -1,7 +1,3 @@
-<script>
-	export const prerender = true;
-</script>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,39 +9,8 @@
 	</head>
 
 	<body>
-		<form name="contact" method="POST" data-netlify="true">
-			<input type="hidden" name="form-name" value="test" />
 
-			<div class="formColumn">
-				<div class="field half">
-					<label>First Name <input type="text" name="firstName" id="firstName" placeholder="" /></label>
-				</div>
-				<div class="field half">
-					<label>Last Name <input type="text" name="lastName" id="lastName" placeholder="" /></label>
-				</div>
-				<div class="field half">
-					<label>Email <input type="email" name="email" id="email" placeholder="" /></label>
-				</div>
-			</div>
-			<div class="formColumn">
-				<div class="field half">
-					<label>Country/Region <input type="text" name="region" id="region" /></label>
-				</div>
-				<div class="field half">
-					<label>Address <input type="text" name="address" id="address" /></label>
-				</div>
-				<div class="field half">
-					<label>Post Code <input type="text" name="postCode" id="postCode" /></label>
-				</div>
-			</div>
-			<div class="formColumn-btm">
-				<textarea name="message" id="message" placeholder="Message" rows="7" />
-				<button class="button" type="submit" value="Send Message">Submit Message</button>
-				<!-- <ul class="actions">
-					<li><input type="submit" value="Send Message" class="button-primary" /></li>
-				</ul> -->
-			</div>
-			<div>%svelte.body%</div>
+		<div>%svelte.body%</div>
 	</body>
 
 </html>

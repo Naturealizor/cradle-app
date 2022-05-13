@@ -3,6 +3,7 @@
 </script>
 
 <form name="contact" method="POST" data-netlify="true">
+	<input type="hidden" name="form-name" value="test" />
 	<div class="formColumn">
 		<div class="field half">
 			<label>First Name <input type="text" name="firstName" id="firstName" placeholder="" /></label>
