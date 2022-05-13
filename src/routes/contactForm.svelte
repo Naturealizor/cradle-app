@@ -1,4 +1,4 @@
-<form name="cradleContactUS" action="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true">
 	<div class="formColumn">
 		<div class="field half">
 			<label>First Name <input type="text" name="firstName" id="firstName" placeholder="" /></label>
