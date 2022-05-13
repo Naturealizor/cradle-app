@@ -2,8 +2,9 @@
 	export const prerender = true;
 </script>
 
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" netlify data-netlify="true">
 	<input type="hidden" name="form-name" value="test" />
+	<input type="hidden" name="bot-field" />
 	<div class="formColumn">
 		<div class="field half">
 			<label>First Name <input type="text" name="firstName" id="firstName" placeholder="" /></label>
