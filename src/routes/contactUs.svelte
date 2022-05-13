@@ -1,4 +1,4 @@
-<script context="module">
+<script>
 	import Header from './header.svelte';
 	import Footer from './footer.svelte';
 	import Topper from './topHeaderImg.svelte';

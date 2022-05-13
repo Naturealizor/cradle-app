@@ -4,13 +4,14 @@ import adapter from '@sveltejs/adapter-netlify';
 const config = {
 	kit: {
 		adapter: adapter(),
-		// target: '#svelte',
-		// prerender: {
-		// 	crawl: true,
-		// 	enabled: true,
-		// 	force: true,
-		// 	pages: ['*']
-		// },
+	// 	target: '#svelte',
+	// 	prerender: {
+	// 		crawl: true,
+	// 		enabled: true,
+	// 		force: true,
+    //   pages: ['*']
+      
+    // },
 	}
 };
 
