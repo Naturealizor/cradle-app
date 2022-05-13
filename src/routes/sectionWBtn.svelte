@@ -27,7 +27,6 @@
 		color: #ffffff;
 	}
 	h3 {
-		color: #c0c16d;
 		font-family: 'Baskerville';
 		font-style: normal;
 		font-weight: 400;

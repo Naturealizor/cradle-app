@@ -1,4 +1,8 @@
-<form name="contact" method="POST" data-netlify="true">
+<script>
+	// export const prerender = true;
+</script>
+
+<form name="contact" method="POST" netlify netlify-honepot="bot-field">
 	<div class="formColumn">
 		<div class="field half">
 			<label>First Name <input type="text" name="firstName" id="firstName" placeholder="" /></label>
@@ -23,7 +27,7 @@
 	</div>
 	<div class="formColumn-btm">
 		<textarea name="message" id="message" placeholder="Message" rows="7" />
-		<button class="actions" type="submit" value="Send Message">Submit Message</button>
+		<button class="button" type="submit" value="Send Message">Submit Message</button>
 		<!-- <ul class="actions">
 			<li><input type="submit" value="Send Message" class="button-primary" /></li>
 		</ul> -->
