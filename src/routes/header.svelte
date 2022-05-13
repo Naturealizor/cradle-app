@@ -73,7 +73,7 @@
 
 <style>
 	img {
-		padding-left: 10px;
+		padding-left: 20px;
 		display: inline-block;
 	}
 
@@ -83,6 +83,8 @@
 	}
 	.nav-logo {
 		display: flex;
+		padding-left: 30px;
+		padding-bottom: 10px;
 		flex-direction: column;
 		float: left;
 		align-items: stretch;
@@ -139,8 +141,9 @@
 		background-color: rgba(79, 80, 79, 0.4);
 		width: 100%;
 		z-index: 1;
-		top: 8em;
+		top: 20%;
 		margin-top: 5px;
+		overflow: hidden;
 	}
 
 	.subnav-content a {

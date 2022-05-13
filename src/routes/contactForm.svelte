@@ -1,4 +1,35 @@
-<form name="contact" method="POST" data-netlify="true">
+<form name="cradleContactUS" action="POST" data-netlify="true">
+	<div class="formColumn">
+		<div class="field half">
+			<label>First Name <input type="text" name="firstName" id="firstName" placeholder="" /></label>
+		</div>
+		<div class="field half">
+			<label>Last Name <input type="text" name="lastName" id="lastName" placeholder="" /></label>
+		</div>
+		<div class="field half">
+			<label>Email <input type="email" name="email" id="email" placeholder="" /></label>
+		</div>
+	</div>
+	<div class="formColumn">
+		<div class="field half">
+			<label>Country/Region <input type="text" name="region" id="region" /></label>
+		</div>
+		<div class="field half">
+			<label>Address <input type="text" name="address" id="address" /></label>
+		</div>
+		<div class="field half">
+			<label>Post Code <input type="text" name="postCode" id="postCode" /></label>
+		</div>
+	</div>
+	<div class="formColumn-btm">
+		<textarea name="message" id="message" placeholder="Message" rows="7" />
+		<ul class="actions">
+			<li><input type="submit" value="Send Message" class="button-primary" /></li>
+		</ul>
+	</div>
+</form>
+
+<!-- <form name="contact" method="POST" data-netlify="true">
 	<div class="formColumn">
 		<p>
 			<label>First Name <input type="text" name="firstName" /></label>
@@ -30,19 +61,71 @@
 			<label>Post Code <input type="text" name="postCode" /></label>
 		</p>
 	</div>
-</form>
-
+</form> -->
 <style>
-	/* Importing the Roboto font from Google Fonts. */
+	/* Remove outline of all elements on focus */
+	*:focus {
+		outline: 0;
+	}
+	form {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		padding: 10px;
+		margin: 0 5em;
+		/* position: relative;
+		display: flex;
+		width: 100%;
+		align-items: flex-start;
+		justify-content: center; */
+	}
+	/* ul {
+		display: block;
+	} */
+	.formColumn {
+		display: flex;
+		flex-direction: column;
+		margin: 0 10em;
+	}
+	.formColumn-btm {
+		display: flex;
+		margin: 0 10em;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	input[type='text'],
+	input[type='email'],
+	textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin: 0 auto;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+	input[type='text']:focus,
+	input[type='email']:focus,
+	textarea:focus {
+		border: 1px solid green;
+	}
+	/* Importing the Roboto font from Google Fonts.
 	@import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
-	/* Set font of all elements to 'Roboto' */
+	Set font of all elements to 'Roboto'
 	* {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
 	}
 
-	/* Remove outline of all elements on focus */
+	Remove outline of all elements on focus
 	*:focus {
 		outline: 0;
 	}
@@ -50,7 +133,7 @@
 	form {
 		display: flex;
 		width: 100%;
-		/* align-items: center; */
+		align-items: center;
 		justify-content: center;
 	}
 
@@ -58,13 +141,13 @@
 		margin: 0 10em;
 	}
 
-	/* Add styles to 'label' selector */
+	Add styles to 'label' selector
 	label {
 		font-size: 0.85em;
-		/* margin-left: 12px; */
+		margin-left: 12px;
 	}
 
-	/* Add styles to 'input' and 'textarea' selectors */
+	Add styles to 'input' and 'textarea' selectors
 	input[type='text'],
 	input[type='email'],
 	textarea {
@@ -79,10 +162,10 @@
 		resize: vertical;
 	}
 
-	/* Add styles to show 'focus' of selector */
+	Add styles to show 'focus' of selector
 	input[type='text']:focus,
 	input[type='email']:focus,
 	textarea:focus {
 		border: 1px solid green;
-	}
+	} */
 </style>

@@ -2,12 +2,8 @@
 	import Header from './header.svelte';
 	import Footer from './footer.svelte';
 	import Topper from './topHeaderImg.svelte';
+	import Modal from './modal.svelte';
 </script>
-
-<!-- Leaving this in as a reference for importing fonts if needed -->
-<!-- <svelte:head>
-	<link href="https://fonts.googleapis.com/css?family=Gelasio" rel="stylesheet" />
-</svelte:head> -->
 
 <Topper />
 <Header />
