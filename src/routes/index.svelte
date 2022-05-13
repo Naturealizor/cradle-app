@@ -3,6 +3,7 @@
 	import Footer from './footer.svelte';
 	import Topper from './topHeaderImg.svelte';
 	import Modal from './modal.svelte';
+	export const prerender = true;
 </script>
 
 <Topper />
