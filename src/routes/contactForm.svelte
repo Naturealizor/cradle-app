@@ -2,7 +2,7 @@
 	const prerender = true;
 </script>
 
-<form name="contact" method="POST" netlify netlify-honepot="bot-field">
+<form name="contact" method="POST" data-netlify="true">
 	<div class="formColumn">
 		<div class="field half">
 			<label>First Name <input type="text" name="firstName" id="firstName" placeholder="" /></label>
