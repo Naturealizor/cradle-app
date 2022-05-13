@@ -1,5 +1,5 @@
 <script>
-	const prerender = true;
+	export const prerender = true;
 </script>
 
 <form name="contact" method="POST" data-netlify="true">

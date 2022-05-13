@@ -5,7 +5,7 @@
 	import Form from './contactForm.svelte';
 	import Section from './sectionWBtn.svelte';
 
-	const prerender = true;
+	export const prerender = true;
 
 	// function routeMediaContact (
 	//    window.location.href="/";
