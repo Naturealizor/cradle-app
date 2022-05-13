@@ -7,10 +7,10 @@ const config = {
 		// target: '#svelte',
 		prerender: {
 			crawl: true,
-			enabled: true
-		// 	// force: true,
+			enabled: true,
+			force: true,
 		// 	onError: 'continue',
-      		// pages: ['*']
+      		pages: ['*']
       
 		},
 	}
