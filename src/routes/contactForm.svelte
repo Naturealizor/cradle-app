@@ -23,9 +23,10 @@
 	</div>
 	<div class="formColumn-btm">
 		<textarea name="message" id="message" placeholder="Message" rows="7" />
-		<ul class="actions">
+		<button class="actions" type="submit" value="Send Message">Submit Message</button>
+		<!-- <ul class="actions">
 			<li><input type="submit" value="Send Message" class="button-primary" /></li>
-		</ul>
+		</ul> -->
 	</div>
 </form>
 
@@ -93,9 +94,9 @@
 		width: 100%;
 	}
 
-	ul {
+	button {
 		list-style: none;
-		padding: 0;
+		padding: 7px;
 	}
 
 	input[type='text'],
