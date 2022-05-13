@@ -1,5 +1,5 @@
-<script>
-	// export const prerender = true;
+<script context="module">
+	export const prerender = true;
 </script>
 
 <form name="contact" method="POST" netlify netlify-honepot="bot-field">
